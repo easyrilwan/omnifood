@@ -29,7 +29,8 @@
 }
 
 .heading-primary,
-.heading-secondary,.heading-tertiary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: #333;
   letter-spacing: -0.5px;
@@ -48,7 +49,7 @@
 }
 
 .heading-tertiary {
-  font-size: 3.0rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -101,4 +102,8 @@
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
