@@ -231,7 +231,7 @@ body {
   transition: all 0.4s;
 }
 
-.meal:hover{
+.meal:hover {
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
@@ -322,4 +322,33 @@ body {
   height: 3rem;
   width: 3rem;
   color: #e67e22;
+}
+
+/* Testimonials Section */
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
 }
