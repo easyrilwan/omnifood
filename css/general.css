@@ -17,7 +17,7 @@
   margin-bottom: 0;
 } */
 
-.grid:not(:last-child){
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -73,6 +73,7 @@
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -81,13 +82,17 @@
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
 }
 
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
-  transition: all 0.3s;
 }
 
 .btn--full:hover,
@@ -107,6 +112,18 @@
   background-color: #fdf2e9;
   /* A trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
@@ -143,6 +160,11 @@
   height: 3rem;
   width: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* Helper/Settings Classes */
