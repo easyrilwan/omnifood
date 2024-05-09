@@ -1,9 +1,9 @@
-console.log("Hello world!");
+// console.log("Hello world!");
 
-const myName = "Jonas Schmedtmann";
-const h1 = document.querySelector(".heading-primary");
-console.log(myName);
-console.log(h1);
+// const myName = "Rilwan Suleiman";
+// const h1 = document.querySelector(".heading-primary");
+// console.log(myName);
+// console.log(h1);
 
 // h1.addEventListener("click", function () {
 //   h1.textContent = myName;
